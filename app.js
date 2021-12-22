@@ -30,7 +30,7 @@ const calculateCube = (number) =>{
 //     ## 3. Is a Vowel?
 // Write a function `isAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. 
 //The vowel could be upper or lower case.
-// make an array of vowels and have iterate through it with a boolean, make speciall explanation for y?
+// make an array of vowels and have iterate through it with a boolean, make special explanation for why?
 const vowelArray = ["a","e","i","o","u","y","A","E","I","O","U","Y"];
 const isAVowel = (letter) => { 
     for (let letter = 0; letter == vowelArray[0]; letter++) {
@@ -40,7 +40,8 @@ const isAVowel = (letter) => {
 }
 }
 console.log(isAVowel("a"));
-// function isVowel(char) {
+// not mine got stuck using as reference!!!
+//function isVowel(char) {
 //     if (char.length == 1) {
 //       var vowels = new Array("a", "e", "i", "o", "u");
 //       var isVowel = false;
