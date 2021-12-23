@@ -94,7 +94,7 @@ const checkPrime = (number) => { if (number === 2) {//is 2
 // This function can **call on** the previous `checkPrime` function.
 // </details>
 
-}
+
 
 
 
