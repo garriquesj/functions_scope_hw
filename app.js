@@ -42,3 +42,18 @@ console.log(isAVowel("b"));
 console.log(isAVowel("A"));
 // I was stuck on this for days tried cycling through an array wrote everything out with a||e||o etc, if statements 
 //found this on the web i understand it but didnt think of it.
+
+// ## 4. Get Two Lengths
+
+// Write a function `getTwoLengths` that accepts two parameters (strings). 
+//The function should return an _array_ of numbers where each number is the length of the corresponding string.
+
+// ```javascript
+//using .length 
+const getTwoLengths = (string1, string2) => {
+    console.log(string1.length, string2.length) 
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+
+
