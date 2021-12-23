@@ -22,36 +22,23 @@
 //}
 // arrow 
 //I need to get math.pow() to work here
-const calculateCube = (number) =>{
-    console.log(number*number*number);
+const calculateCube = number =>{//doesnt need braces if its one 
+    return(number*number*number);// if we are returning 1 thing it doesnt need braces down here?
 }
+
     console.log(calculateCube(5));
     console.log(calculateCube(3));
 //     ## 3. Is a Vowel?
+// ## 3. Is a Vowel?
 // Write a function `isAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. 
-//The vowel could be upper or lower case.
-// make an array of vowels and have iterate through it with a boolean, make special explanation for why?
-const vowelArray = ["a","e","i","o","u","y","A","E","I","O","U","Y"];
-const isAVowel = (letter) => { 
-    for (let letter = 0; letter == vowelArray[0]; letter++) {
-      if (letter === vowelArray) {
-          isAVowel = (true);
-      } else (false);
-}
+// The vowel could be upper or lower case.
+
+
+function isAVowel(letter) {
+    return ['a', 'e', 'i', 'o', 'u','y','A', 'E', 'E', 'O', 'U','Y' ].indexOf(letter) !== -1// -1 if trying to prove element is present in array 1 said all true 
 }
 console.log(isAVowel("a"));
-// not mine got stuck using as reference!!!
-//function isVowel(char) {
-//     if (char.length == 1) {
-//       var vowels = new Array("a", "e", "i", "o", "u");
-//       var isVowel = false;
-  
-//       for (e in vowels) {
-//         if (vowels[e] == char) {
-//           isVowel = true;
-//         }
-//       }
-  
-//       return isVowel;
-//     }
-//   }
+console.log(isAVowel("b"));
+console.log(isAVowel("A"));
+// I was stuck on this for days tried cycling through an array wrote everything out with a||e||o etc, if statements 
+//found this on the web i understand it but didnt think of it.
