@@ -55,5 +55,22 @@ const getTwoLengths = (string1, string2) => {
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
 
+// ## 5. Sum Array
+// Write a function `sumArray` that takes an **array** as an argument.
+// The array should contain numbers. The function should return the sum of the numbers in the array. **Do not use `.reduce()`**.
+let sum = 0 ;
+function sumArray (array) {
+     // first index
+        for (let i = 0; i < array.length ; i++) {// iteration
+           sum += array[i]; 
+            } //addition, stats at 0 so is always 1 behind i, 
+         return sum;    
+    }
+
+   //again done this three ways dont get it 2 of which were from the net, always undefined or doesnt iterate
+console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
+
+
 
 
