@@ -67,7 +67,7 @@ function sumArray (array) {
          return sum;    
     }
 
-   //again done this three ways dont get it 2 of which were from the net, always undefined or doesnt iterate
+   
 console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
 
