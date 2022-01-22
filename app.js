@@ -3,9 +3,11 @@
 //Write answers to the following questions as comments. 
 
 //1. What is the difference between a **parameter** and an **argument**?
+// parameter is in function before it is used is descrbes how the function will act on arguments
+// arguements are put in the function they are the variables that will take the place of a parameter when the function is being used
     //
 //2. Within a function, what is the difference between **return** and **console.log**?
-    // a return statement 1 will end the operation of a function and is the result of the operation, 
+    // a return statement will end the operation of a function and is the result of the operation, 
     //the console.log merely displays what is asked of it in the terminal
 //3. What are the implications of the ability of a function to return a value?
     //not sure I am answering this correctly but the return values implies that the function will conduct and operation and that it will give back a specific datatype and
@@ -78,7 +80,7 @@ console.log(sumArray([1, 2, 3, 4, 5, 6]));
 const checkPrime = (number) => { if (number === 2) {//is 2
     return true;
   } else if
-        (number > 1 && number !== 2 ) {//greater than 1 but isnt 2
+        (number > 1 && number !== 2 ) {//means greater than 1 but isnt 2
     for (let i = 2; i < Math.sqrt(number); i++) {//2 first prime number/ square root/iterate
     //for (let i = 2; i < number; i++) {  
       if (number % i == 0) { //!=== reports error
